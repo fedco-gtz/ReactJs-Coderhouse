@@ -1,0 +1,179 @@
+.searchDiv {
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    border-radius: 15px;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+}
+
+.tittle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.form .label {
+    font-weight: bold;
+}
+
+.searchButton {
+    background-color: rgb(242, 242, 242);
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    width: 10%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.searchButton:hover {
+    background-color: #515676;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    padding: 10px;
+    color: rgba(222, 241, 134);
+    font-size: 20px;
+    width: 10%;
+    height: auto;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.searchTittle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.orderId {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    color: rgba(0, 31, 85);
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.fact {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.orderItem {
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    border-radius: 15px;
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+}
+
+.factItem {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.factPrice {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+}
+
+.factPriceParcial {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #004c9e;
+}
+
+.orderPrice {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #013d7c;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.linkButton {
+    background-color: rgb(242, 242, 242);
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    color: black;
+    font-size: 18px;
+    height: auto;
+    width: 10%;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 8px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 12px auto -5px 10px;
+    text-align: center;
+}
+
+.linkButton:hover {
+    background-color: #515676;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    color: rgba(222, 241, 134);
+}
+
+
+@media screen and (min-width:320px) and (max-width: 1000px) {
+    .searchButton {
+        width: 30%;
+    }
+
+    .searchButton:hover {
+        width: 30%;
+    }
+
+    .linkContainer {
+        display: none;
+    }
+}

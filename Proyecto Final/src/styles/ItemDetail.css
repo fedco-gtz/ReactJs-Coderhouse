@@ -1,0 +1,139 @@
+.table {
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    border-radius: 15px;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+}
+
+.column {
+    width: 500px;
+}
+
+.table .collection {
+    color: #242424;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.table .name {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.table .description {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.table .price {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 12%;
+}
+
+.cartButton {
+    padding: 10px 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    background-color: rgb(242, 242, 242);
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.cartButton:hover {
+    padding: 10px 10px;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    background-color: #515676;
+    color: rgba(222, 241, 134);
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.tableMobile {
+    display: none;
+}
+
+@media screen and (min-width:320px) and (max-width: 1000px) {
+    .table {
+        display: none;
+    }
+
+    .tableMobile {
+        display: flex;
+        margin: 10px;
+        padding: 20px;
+        border: 3px solid rgba(0, 31, 85, 0.2);
+        border-radius: 15px;
+        background-color: rgb(246, 246, 246);
+        text-align: center;
+    }
+
+    .tableMobile img {
+        width: 80%;
+    }
+
+    .tableMobile .collection {
+        color: #242424;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .tableMobile .name {
+        font-weight: bold;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .tableMobile .description {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .tableMobile .price {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 12%;
+    }
+
+    .space {
+        margin-top: 15px;
+    }
+
+    .cartButton {
+        margin-top:50px;
+        padding: 10px 10px;
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+        border: 3px solid rgba(0, 31, 85, 0.2);
+        background-color: rgb(242, 242, 242);
+        font-size: 18px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    
+    .cartButton:hover {
+        padding: 10px 10px;
+        border: 3px solid rgba(0, 31, 85, 0.2);
+        background-color: #515676;
+        color: rgba(222, 241, 134);
+        height: auto;
+        width: auto;
+        font-size: 18px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+}

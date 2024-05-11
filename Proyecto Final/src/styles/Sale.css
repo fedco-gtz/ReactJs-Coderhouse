@@ -1,0 +1,26 @@
+.infoSale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.infoDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #013d7c;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.infoDate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    margin-top: 20px;
+    color: #013d7c;
+}

@@ -1,0 +1,129 @@
+.tittle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.form .div {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30%;
+}
+
+.form .div .label {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.saleButton {
+    background-color: rgb(242, 242, 242);
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.saleButton:hover {
+    background-color: #515676;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    padding: 10px;
+    color: rgba(222, 241, 134);
+    font-size: 20px;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.saleDetail {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px; 
+    width: auto;
+    height: auto;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    border-radius: 15px;
+    background-color: rgb(246, 246, 246);
+}
+
+.saleDetail .info {
+    margin: 10px;
+    flex-direction: column;
+}
+
+.saleConfirm {
+    background-color: rgb(242, 242, 242);
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saleConfirm:hover {
+    background-color: #515676;
+    border: 3px solid rgba(0, 31, 85, 0.2);
+    padding: 10px;
+    color: rgba(222, 241, 134);
+    font-size: 20px;
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}

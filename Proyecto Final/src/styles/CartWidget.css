@@ -1,0 +1,29 @@
+.cartWidget {
+    background-color: rgba(255, 255, 255, 0.87);
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.cartWidget img {
+    width: 40px;
+    height: 40px;
+}
+
+.cartWidget p {
+    width: 40px;
+    height: 40px;
+}
+
+.cartWidget:hover {
+    background-color: rgba(212, 255, 64, 0.87);
+}
+
+.cartWidget .cardNumber {
+    color: #242424;
+    font-size: 24px;
+}
