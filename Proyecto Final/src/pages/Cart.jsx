@@ -4,7 +4,6 @@ import { CartContext } from "../context/cartContext";
 import { toast } from 'react-toastify';
 import '../styles/ItemCount.css';
 import '../styles/Cart.css';
-import trash from '../images/trash.png';
 
 function Cart() {
     const { cart, clearCart, totalQuantity, removeItem } = useContext(CartContext);
